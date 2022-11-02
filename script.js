@@ -19,7 +19,7 @@ function getNumber() {
 
 function createGrid(number) {
    // resets grid 
-    div.innerHTML="";
+    div.textContent="";
 
     let totalSquares = number * number;
     
